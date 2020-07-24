@@ -45,12 +45,15 @@
     "!*/__tests__"
   ],
   "dependencies": {
+    "@loopback/authentication": "^4.2.10",
     "@loopback/boot": "^2.4.0",
     "@loopback/core": "^2.9.2",
     "@loopback/repository": "^2.10.0",
     "@loopback/rest": "^5.2.1",
     "@loopback/rest-explorer": "^2.2.7",
     "@loopback/service-proxy": "^2.3.5",
+    "bcryptjs": "^2.4.3",
+    "loopback-connector-mysql": "^5.4.4",
     "tslib": "^2.0.0"
   },
   "devDependencies": {
